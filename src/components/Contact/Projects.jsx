@@ -8,6 +8,7 @@ import img4 from "../../assets/4.png";
 const Card = ({ project }) => {
   return (
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
+
       <img
         src={project.img}
         alt={project.title}
@@ -17,7 +18,20 @@ const Card = ({ project }) => {
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-3">
           <div className="text-xl font-semibold">{project.title}</div>
+
           <p className="text-black">{project.description}</p>
+
+          {project.Web && (
+            <motion.a
+              href={project.Web}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block text-blue-600 transition-all duration-300 hover:text-blue-400 hover:underline"
+              whileHover={{ scale: 1.05 }}
+            >
+              🔗 Webサイトを見る
+            </motion.a>
+          )}
         </div>
       </div>
 
@@ -37,33 +51,37 @@ const projectData = [
     id: "1",
     img: img1,
     title: "ポートフォリオウェブサイト",
-    description: "モダンでレスポンシブなポートフォリオサイトで、スムーズなアニメーションでプロジェクトとスキルを紹介します。",
-    Web:"https://nintendo-ochre.vercel.app/switch",
-    technologies: ["React.Vite", "TailwindCSS", "Framer Motion","ThreeJs"],
+    description:
+      "モダンでレスポンシブなポートフォリオサイトで、スムーズなアニメーションでプロジェクトとスキルを紹介します。",
+    Web: "https://nintendo-ochre.vercel.app",
+    technologies: ["React.Vite", "TailwindCSS", "Framer Motion", "ThreeJs"],
   },
   {
     id: "2",
     img: img2,
     title: "エナジードリンクストア",
-    description: "ダイナミックな商品表示とスムーズな決済プロセスを備えたエナジードリンクのeコマースウェブサイト。",
-    Web:"https://energdrinkshop.vercel.app",
-    technologies: ["React.Vite", "TailwindCSS",],
+    description:
+      "ダイナミックな商品表示とスムーズな決済プロセスを備えたエナジードリンクのeコマースウェブサイト。",
+    Web: "https://energdrinkshop.vercel.app",
+    technologies: ["React.Vite", "TailwindCSS"],
   },
   {
     id: "3",
     img: img3,
     title: "かわいいキャラクターデザイン",
-    description: "デジタルメディアと印刷物のために制作されたかわいいキャラクターイラストとデザインのコレクション。",
+    description:
+      "デジタルメディアと印刷物のために制作されたかわいいキャラクターイラストとデザインのコレクション。",
     technologies: ["CSP", "Photoshop"],
   },
   {
     id: "4",
     img: img4,
     title: "ポスターデザイン",
-    description: "デジタルメディアと印刷物のために制作されたポスターデザイン",
+    description: "デジタルメディアと印刷物のために制作されたポスターデザイン。",
     technologies: ["Adobe Photoshop", "Adobe Illustrator"],
   },
 ];
+
 const ScrollReveal = ({ children }) => {
   return (
     <motion.div
