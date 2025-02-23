@@ -38,14 +38,16 @@ const projectData = [
     img: img1,
     title: "ポートフォリオウェブサイト",
     description: "モダンでレスポンシブなポートフォリオサイトで、スムーズなアニメーションでプロジェクトとスキルを紹介します。",
-    technologies: ["React", "Tailwind", "Framer Motion"],
+    Web:"https://nintendo-ochre.vercel.app/switch",
+    technologies: ["React.Vite", "TailwindCSS", "Framer Motion","ThreeJs"],
   },
   {
     id: "2",
     img: img2,
     title: "エナジードリンクストア",
     description: "ダイナミックな商品表示とスムーズな決済プロセスを備えたエナジードリンクのeコマースウェブサイト。",
-    technologies: ["React", "Tailwind", ],
+    Web:"https://energdrinkshop.vercel.app",
+    technologies: ["React.Vite", "TailwindCSS",],
   },
   {
     id: "3",

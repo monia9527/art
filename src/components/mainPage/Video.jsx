@@ -108,7 +108,7 @@ const VIDEOS = [
       info: {
         title: "制作情報",
         lines: [
-          "制作時間: 6.6時間",
+          "制作時間: 6時間",
           "使用ツール: Clip Studio Paint",
           "アニメーション: hailuoAI",
         ],
@@ -137,7 +137,7 @@ const VIDEOS = [
       info: {
         title: "制作情報",
         lines: [
-          "制作時間: 6.6時間",
+          "制作時間: ７時間",
           "使用ツール: Clip Studio Paint",
           "アニメーション: hailuoAI",
         ],
@@ -165,7 +165,7 @@ const VIDEOS = [
       info: {
         title: "制作情報",
         lines: [
-          "制作時間: 6.6時間",
+          "制作時間: ８時間",
           "使用ツール: Clip Studio Paint",
           "アニメーション: hailuoAI",
         ],
