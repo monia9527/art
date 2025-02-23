@@ -257,7 +257,7 @@ const ChatBot = () => {
           Authorization: `Bearer ${API_KEY}`,
         },
         body: JSON.stringify({
-          model: "gpt-4o",
+          model: "claude-3-5-sonnet-20240620",
           messages: [
             { role: "system", content: systemMessage },
             { role: "user", content: userMessage },
