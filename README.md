@@ -8,7 +8,7 @@ Welcome to **Art**, a digital art portfolio showcasing character designs, illust
 ##  Project Overview
 This project consists of three main sections:
 
-### ** First Page: Ongoing Development**
+### ** First Page: Main Art**
 -  **A work-in-progress** featuring all major characters.
 -  **Future Updates**: More designs, including character illustrations, environment concepts, and UI enhancements.
 -  **Upcoming Feature**: AI-driven dialogue system to create more interactive and engaging content.
