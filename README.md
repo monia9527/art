@@ -1,6 +1,6 @@
 #  Art | Digital Artwork Portfolio
 
-Welcome to **Art**, a digital art portfolio showcasing character designs, illustrations, and AI-driven interactive content. This website is built with **React, TailwindCSS, and Framer Motion**, offering an engaging and visually immersive experience.
+Welcome to here, a digital art portfolio showcasing character designs, illustrations, and AI-driven interactive content. This website is built with **React, TailwindCSS, and Framer Motion**, offering an engaging and visually immersive experience.
 
 ##  Live Demo
 [🔗 Check it out here](https://art-eosin.vercel.app) 
@@ -8,16 +8,16 @@ Welcome to **Art**, a digital art portfolio showcasing character designs, illust
 ##  Project Overview
 This project consists of three main sections:
 
-### ** First Page: Main Art**
+## ** First Page: Main Art
 -  **A work-in-progress** featuring all major characters.
 -  **Future Updates**: More designs, including character illustrations, environment concepts, and UI enhancements.
 -  **Upcoming Feature**: AI-driven dialogue system to create more interactive and engaging content.
 
-### ** Second Page: Art Gallery**
+## ** Second Page: Art Gallery
 - A **collection of artworks** created since **2019**.
 - Showcasing various styles and artistic techniques.
-
-### ** Third Page: About Me**
+- 
+## ** Third Page: About Me
 - A personal introduction page detailing artistic journey, inspirations, and creative process.
 
 ##  Features
