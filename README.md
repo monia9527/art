@@ -16,7 +16,7 @@ This project consists of three main sections:
 ##  Second Page: Art Gallery
 - A **collection of artworks** created since **2019**.
 - Showcasing various styles and artistic techniques.
-- 
+  
 ##  Third Page: About Me
 - A personal introduction page detailing artistic journey, inspirations, and creative process.
 
